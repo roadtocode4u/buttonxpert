@@ -1,0 +1,77 @@
+
+.btn-type-3d {
+    margin-top: 50px;
+    margin-left: 20px;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+  .color-pink:active {
+    box-shadow: 0 0 #ff0a78;
+    top: 5px;
+  }
+  .color-pink:hover {
+    box-shadow: 0 3px #ff0a78;
+    top: 1px;
+  }
+
+  .color-pink
+  {
+    background: #ff6392;
+    box-shadow: 0 5px #ff0a78;
+  
+  }
+   .color-blue{
+   background: #3d348b;
+  box-shadow: 0 5px #2c0b8e;
+
+   }
+  .color-blue:hover {
+    box-shadow: 0 3px #2c0b8e;
+    top: 1px;
+  }
+  .color-blue:active {
+    box-shadow: 0 0 #2c0b8e;
+    top: 5px;
+  }
+
+.color-sky-blue{
+  background: #3a86ff;
+  box-shadow: 0 5px #4433ff;
+}  
+
+.color-sky-blue:hover {
+  box-shadow: 0 3px #4433ff;
+  top: 1px;
+}
+.color-sky-blue:active {
+  box-shadow: 0 0 #4433ff;
+  top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.css-button-3d--blue:hover {
+  box-shadow: 0 3px #2c0b8e;
+  top: 1px;
+}
+.css-button-3d--blue:active {
+  box-shadow: 0 0 #2c0b8e;
+  top: 5px;
+}
