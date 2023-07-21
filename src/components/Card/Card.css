@@ -1,0 +1,12 @@
+.card{
+    height: 350px;
+    width: 500px;
+    border: 2px solid rgb(102, 100, 100);
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: 20px;
+}  
+
+.iframe-body{
+    width: 100%;
+}
