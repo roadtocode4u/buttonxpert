@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Headingcontent from './components/Headingcontent/Headingcontent';
 
 
 function App() {
@@ -8,6 +10,11 @@ function App() {
      
     </div>
   );
+    <>
+    <Navbar/>
+    <Headingcontent/>
+    </>
+  )
 }
 
 export default App;
