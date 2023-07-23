@@ -1,7 +1,7 @@
 import React from 'react'
-import './Tavbar.css'
+import './Navbar.css'
 
-function Tavbar() {
+function Navbar() {
   return (
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -19,4 +19,4 @@ function Tavbar() {
   )
 }
 
-export default Tavbar
+export default Navbar
