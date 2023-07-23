@@ -1,13 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-import Tavbar from './components/Tavbar/Tavbar';
-import Headingcontent from './components/Headingcontent/Headingcontent';
+import Home from "./components/Home";
 
 function App() {
   return (
     <>
-    <Tavbar/>
-    <Headingcontent/>
+   
     </>
   )
 }
