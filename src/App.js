@@ -6,7 +6,7 @@ import Headingcontent from './components/Headingcontent/Headingcontent';
 function App() {
   return (
     <>
-    <Navbar/>
+    <Tavbar/>
     <Headingcontent/>
     </>
   )
