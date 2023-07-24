@@ -1,0 +1,67 @@
+.heading{
+    text-align: center;
+}
+.btn-retro {
+    margin-top: 50px;
+    margin-left: 20px;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    z-index: 0;
+}
+
+.btn-retro:hover:after {
+    top: 0;
+    left: 0;
+}
+.btn-retro:hover:after {
+ content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  
+}
+.button-1::after{
+    background-color: #ff6392;
+}
+
+.button-2:after {
+    background-color: #3d348b;
+}
+.button-3:after{
+     background-color: #3a86ff;
+}
+.button-4:after{
+    background-color: #ef233c;
+}
+.button-5:after{
+    background-color: #80ed99;
+}
+.button-6:after{
+    background-color: #ffe566;
+}
+.button-7::after{
+    background-color: #ced4da;
+}
+.button-8::after{
+    background-color: #343a40;
+
+}
+.button-9::after{
+    background-color: #6c757d;
+
+}

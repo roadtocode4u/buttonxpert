@@ -12,6 +12,17 @@ function App() {
           <Route path="/buttonpage" element={<ButtonPage />} />
         </Routes>
       </BrowserRouter>
+
+import './App.css';
+import Navbar from './components/Navbar/Navbar'
+import Headingcontent from './components/Headingcontent/Headingcontent';
+
+function App() {
+  return (
+      <>
+      
+    <Navbar/>
+    <Headingcontent/>
     </>
   );
 }
