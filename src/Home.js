@@ -5,7 +5,7 @@ import Headingcontent from './components/Headingcontent/Headingcontent';
 function Home() {
   return (
     <>
-    <Headingcontent/>
+      <Headingcontent />
     </>
   )
 }
