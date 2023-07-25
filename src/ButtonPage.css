@@ -1,0 +1,306 @@
+.css-button-shadow-border-sliding--yellow {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    background: #ffd819;
+    z-index: 1;
+}
+
+.css-button-shadow-border-sliding--yellow:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.css-button-shadow-border-sliding--yellow:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    transition: all 0.3s ease;
+    background-color: #ffe566;
+    right: 0;
+}
+
+.css-button-shadow-border-sliding--yellow:active {
+    top: 2px;
+}
+
+.css-button-3d--rose {
+    min-width: 130px;
+    margin-top: 40px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ff6392;
+    box-shadow: 0 5px #ff0a78;
+}
+
+.css-button-3d--rose:hover {
+    box-shadow: 0 3px #ff0a78;
+    top: 1px;
+}
+
+.css-button-3d--rose:active {
+    box-shadow: 0 0 #ff0a78;
+    top: 5px;
+}
+
+.css-button-gradient--1 {
+    margin-right: 20px;
+    margin-top: 40px;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #4ecdc4 0%, #c797eb 75%);
+}
+
+.css-button-gradient--1:hover {
+    background-position: right center;
+}
+
+.css-button-gradient--1:active {
+    top: 2px;
+}
+
+.btn {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+
+.css-button-retro--blue {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    z-index: 0;
+}
+
+.css-button-retro--blue:hover:after {
+    top: 0;
+    left: 0;
+}
+
+.css-button-retro--blue:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color: #3d348b;
+}
+
+.css-button-shadow-border-sliding--sky {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    background: #4433ff;
+    z-index: 1;
+}
+
+.css-button-shadow-border-sliding--sky:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.css-button-shadow-border-sliding--sky:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    transition: all 0.3s ease;
+    background-color: #3a86ff;
+    right: 0;
+}
+
+.css-button-shadow-border-sliding--sky:active {
+    top: 2px;
+}
+
+.css-button-rounded--red {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #d90429;
+    background: #d90429;
+}
+
+.css-button-rounded--red:hover {
+    background: #fff;
+    color: #d90429
+}
+
+.css-button-fully-rounded--green {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #57cc99;
+    background: #57cc99;
+}
+
+.css-button-fully-rounded--green:hover {
+    background: #fff;
+    color: #57cc99
+}
+
+.css-button-sliding-to-left--sand {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #adb5bd;
+    color: #adb5bd;
+}
+
+.css-button-sliding-to-left--sand:hover {
+    color: #fff;
+}
+
+.css-button-sliding-to-left--sand:hover:after {
+    width: 100%;
+}
+
+.css-button-sliding-to-left--sand:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #adb5bd;
+}
+
+.css-button-arrow--black {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #343a40
+}
+
+.css-button-arrow--black:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+.css-button-arrow--black:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.css-button-arrow--black:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
+
+.button-row-1 {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-container-grp {
+ border:solid 1px black;
+ padding: 2px;
+}

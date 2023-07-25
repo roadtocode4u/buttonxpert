@@ -12,8 +12,6 @@ function Card() {
                 </iframe>
             </div>
         </>
-
-
     )
 }
 
