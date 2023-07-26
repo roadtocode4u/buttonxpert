@@ -1,34 +1,124 @@
-
 .main-container-img {
-    /* background-image: url(../../images/color-img.jpg); */
-    background-image: url(https://cdn.pixabay.com/photo/2018/01/17/15/33/streamer-3088458_1280.jpg);
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(https://img.freepik.com/free-photo/elevated-view-multicolored-wax-crayons-brown-plank_23-2148050721.jpg?size=626&ext=jpg&ga=GA1.1.526965354.1690195631&semt=ais);
+    background-size: contain;
+    opacity: 0.9;
     height: 100vh;
     width: 100%;
 }
-.project-heading{
-    padding-top: 150px;
-    color:white;
-    font-size: 80px;
+
+.home-page-img {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-img-grp {
+    margin-top: 80px;
+}
+
+.rtc-heading {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project-heading {
+    padding-top: 80px;
+    color: white;
+    font-size: 70px;
     font-family: 'Roboto', sans-serif;
 }
 
-.description{
-    color:white;
-    font-size: 50px;
+.description {
+    color: white;
+    font-size: 40px;
 }
 
-.main-btn{
-    padding: 100px;
+.main-btn {
     display: block;
     margin: 0 auto;
-    background-color: black;
-    color:white;
-
+    color: white;
+    font-weight: bold;
 }
-.fancy-btn{
+
+.fancy-btn {
     padding-left: 60px;
     padding-right: 60px;
     margin-top: 30px;
 }
 
+@media screen and (max-width: 605px) {
+    .main-container-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .logo-img-grp {
+        margin-top: 50px;
+    }
+
+    .home-page-img {
+        height: 140px;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .project-heading {
+        padding-top: 23px;
+        font-size: 50px;
+    }
+
+    .second-container {
+        margin-bottom: 100px;
+    }
+
+    .description {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .fancy-btn {
+        padding-left: 30px;
+        padding-right: 30px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .main-container-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+        height: 100vh;
+        width: 100%;
+    }
+
+    
+    /* @media screen and (min-width: 851px) and (max-width: 1000px) {
+        .main-container-img {
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.9;
+            height: 100vh;
+            width: 100%;
+        }
+    } */
+
+    /* @media screen and (min-width: 850px) and (max-width: 1000px) {
+        .main-container-img {
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.9;
+            height: 100vh;
+            width: 100%;
+        }
+
+    } */
+
+}
