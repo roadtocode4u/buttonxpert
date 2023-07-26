@@ -4,8 +4,7 @@ import './ButtonPage.css'
 function ButtonPage() {
   return (
     <>
-
-      <div className='container content-container-grp'>
+     <div className='container content-container-grp'>
         <div className='row'>
           <div className='col-md-6'>
             <div className='button-row-1'>
@@ -36,7 +35,6 @@ function ButtonPage() {
 
           </div>
 
-
           <div className='col-md-6'>
             <iframe height="500" style={{ 'width': '100%', 'marginTop': '60px' }} scrolling="no" title="ButtonXpert" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" name='codepen'>
             </iframe>
@@ -49,23 +47,6 @@ function ButtonPage() {
 }
 
 export default ButtonPage;
-
-
-{/* {buttons.map((button,index
-              <Button3Dutton 
-              key={index.href}
-              href={Button3.href}
-              onclick={()=>handleClick(index)}
-              />
-              
-              ))} */}
-
-
-{/* const [button,Setbuttons]= useState(0);
-
-      const handleClick=(index) = {
-        setSelectedButton(index)
-   }; */}
 
 
 
