@@ -4,6 +4,7 @@ import './ButtonPage.css'
 function ButtonPage() {
   return (
     <>
+    
      <div className='container content-container-grp'>
         <div className='row'>
           <div className='col-md-6'>
@@ -19,7 +20,7 @@ function ButtonPage() {
             <div>
               <a style={{ "textDecoration": "none", 'marginLeft': '30px' }} className='css-button-retro--blue mt-5' href='https://codepen.io/Harshada-Mhase/embed/VwVdzpP?default-tab=html%2Cresult' target='codepen'>Click me!</a>
 
-              <a style={{ "textDecoration": "none", 'marginLeft': '30px' }} className='css-button-shadow-border-sliding--sky' href='https://codepen.io/Harshada-Mhase/embed/zYMJprm?default-tab=html%2Cresult' target='codepen'>Click me!</a>
+              <a style={{ "textDecoration": "none", 'marginLeft': '30px' }} className='css-button-shadow-border-sliding--sky mt-5' href='https://codepen.io/Harshada-Mhase/embed/zYMJprm?default-tab=html%2Cresult' target='codepen'>Click me!</a>
 
               <a style={{ "textDecoration": "none", 'marginLeft': '30px' }} className='css-button-rounded--red' href='https://codepen.io/Harshada-Mhase/embed/zYMJRrx?default-tab=html%2Cresult' target='codepen'>Click me!</a>
             </div>
