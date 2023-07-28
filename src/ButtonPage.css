@@ -189,6 +189,7 @@
     border-radius: 5px;
     border: 2px solid #d90429;
     background: #d90429;
+    margin-top: 20px;
 }
 
 .css-button-rounded--red:hover {
@@ -301,6 +302,10 @@
 }
 
 .content-container-grp {
- border:solid 1px black;
- padding: 2px;
+ /* border:solid 1px black; */
+ padding: 0 20px 20px;
+border-radius: 10px;
+}
+.content-container-grp{
+    margin-top: 50px;
 }
