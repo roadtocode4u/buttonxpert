@@ -99,26 +99,4 @@
         width: 100%;
     }
 
-    
-    /* @media screen and (min-width: 851px) and (max-width: 1000px) {
-        .main-container-img {
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 0.9;
-            height: 100vh;
-            width: 100%;
-        }
-    } */
-
-    /* @media screen and (min-width: 850px) and (max-width: 1000px) {
-        .main-container-img {
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 0.9;
-            height: 100vh;
-            width: 100%;
-        }
-
-    } */
-
 }
