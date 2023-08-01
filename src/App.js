@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import ButtonPage from "./views/ButtonPage";
+import ButtonPage from "./views/ButtonPage/ButtonPage";
 import Home from "./Home";
 
 function App() {

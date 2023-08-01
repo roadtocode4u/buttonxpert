@@ -33,13 +33,7 @@ function ButtonPage() {
           <a style={{ "textDecoration": "none", 'marginLeft': '30px' }} className='css-button-sharp--black mt-5' href="https://codepen.io/Yogita-Shete/embed/vYQQEwL?default-tab=html%2Cresult" target='codepen'>Click me!</a>
           <a style={{ "textDecoration": "none", 'marginLeft': '30px' }} className='css-button-neumorphic mt-5' href="https://codepen.io/Yogita-Shete/embed/mdQQyZE?default-tab=html%2Cresult" target='codepen'>Click me!</a>
           </div>
-          
-            {/* <div>
-              <a style={{ "textDecoration": "none", 'marginLeft': '30px' }} className='css-button-sliding-to-left--sand mt-5' href='https://codepen.io/Harshada-Mhase/embed/zYMJWpp?default-tab=html%2Cresult' target='codepen'>Click me!</a>
-              <a style={{ "textDecoration": "none", 'marginLeft': '30px'}} className='css-button-arrow--black mt-5' href='https://codepen.io/Harshada-Mhase/embed/rNQZdJG?default-tab=html%2Cresult' target='codepen'>Click me!</a>
-              <a style={{ "textDecoration": "none", 'marginLeft': '30px' ,'marginBottom':'5px' }} className='css-button-fully-rounded--green mt-5' href='https://codepen.io/Harshada-Mhase/embed/JjeaLNL?default-tab=html%2Cresult' target='codepen'>Click me!</a>
-            </div> */}
-
+        
 
           </div>
 

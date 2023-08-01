@@ -1,5 +1,5 @@
 import React from 'react'
-import Headingcontent from './components/Headingcontent/Headingcontent';
+import Headingcontent from './views/Home/Home';
 
 
 function Home() {
