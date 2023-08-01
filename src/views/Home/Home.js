@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import Home from './../../images/logo.png';
+import Home from './../../images/log.png';
 
 function Headingcontent() {
   return (

@@ -10,7 +10,7 @@ function ButtonPage() {
 
   return (
     <>
-      <div className='container content-container-grp'>
+      <div className='container content-container-grp main-bgcolor'>
         <div className='row'>
           <div className='col-md-6'>
             <h2 className='text-center mt-5 main-heading-btn'>Click On Button and Explore!</h2>
