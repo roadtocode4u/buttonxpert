@@ -1,3 +1,7 @@
+.main-bgcolor{
+    background-color: antiquewhite;
+
+}
 .css-button-shadow-border-sliding--yellow {
     min-width: 130px;
     height: 40px;
@@ -307,6 +311,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     margin-top: 50px;
+    
 }
 
 .display-container{
